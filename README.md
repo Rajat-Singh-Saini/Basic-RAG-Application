@@ -23,7 +23,7 @@ The chatbot only answers from the provided course content. If the answer is not 
 ### 1. Clone / download the project
 
 ```bash
-cd "Week 15_Graded Mini Project_Rajat Singh Saini"
+cd "Basic RAG Application"
 ```
 
 ### 2. Create and activate a virtual environment
@@ -31,7 +31,6 @@ cd "Week 15_Graded Mini Project_Rajat Singh Saini"
 ```bash
 python -m venv venv
 source venv/bin/activate        # macOS / Linux
-venv\Scripts\activate           # Windows
 ```
 
 ### 3. Install dependencies
