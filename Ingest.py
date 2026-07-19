@@ -1,3 +1,7 @@
+"""
+This script is used for data ingestion. We have uploaded 4 pdf files and stored them into FAISS vector database.
+The FAISS vector database is used for similarity search in the RAG application."""
+
 import os
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader

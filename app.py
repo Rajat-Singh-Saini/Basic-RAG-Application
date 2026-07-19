@@ -1,3 +1,10 @@
+"""
+This file is where we create the RAG application using Streamlit.
+Basis queries from the end user, we retrieve relevant documents from the FAISS vector database and use them to
+generate answers using the LLM. The application is designed to provide accurate and contextually relevant responses
+to user queries based on the ingested course documents.
+"""
+
 import streamlit as st 
 import os
 from dotenv import load_dotenv 
